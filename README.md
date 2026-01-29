@@ -1,5 +1,4 @@
-# -java-
+##  -java-
 这是软件学院大一下学期（2025年度）实训大作业（东软环保系统）仅供参考
 
-# 上述代码.java文件，是后端代码实现
-# .fxml文件和css文件是基于SceneBuilder实现的前端页面
+ 上述代码.java文件，是后端代码实现 .fxml文件和css文件是基于SceneBuilder实现的前端页面
