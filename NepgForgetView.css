@@ -1,0 +1,43 @@
+/* NepsFeedbackView.css */
+
+.root, .anchor-pane, .AnchorPane {
+    -fx-background-image: url("../../../../image/welcome.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+.label {
+    -fx-background-color: #ABD7C8;
+    -fx-padding: 2 8 2 8;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+}
+
+.table-view {
+    -fx-background-color: rgba(171, 215, 200, 0.3);
+    -fx-border-color: #ABD7C8;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+}
+
+/* Button样式 */
+.button {
+    -fx-background-color: #BAD59C;
+    -fx-font-size: 14px;
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: #ABD7C8;
+    -fx-text-fill: #2B4D3A;
+}
+
+.button:pressed {
+    -fx-background-color: #9BC4A9;
+    -fx-scale-x: 0.95;
+    -fx-scale-y: 0.95;
+}

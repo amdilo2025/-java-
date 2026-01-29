@@ -1,0 +1,22 @@
+/* NepmMainView.css */
+
+.root, .anchor-pane, .AnchorPane {
+    -fx-background-image: url("../../../../image/welcome.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+.menu-bar {
+    -fx-background-color: #ABD7C8;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+}
+
+.label {
+    -fx-background-color: #ABD7C8;
+    -fx-padding: 2 8 2 8;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-font-size: 16px;
+} 

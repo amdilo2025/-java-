@@ -1,0 +1,45 @@
+/* NepmLoginView.css */
+
+.root, .anchor-pane, .AnchorPane {
+    -fx-background-image: url("../../../../image/welcome.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+.label {
+    -fx-background-color: #ABD7C8;
+    -fx-padding: 2 8 2 8;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+}
+
+.text-field, .password-field {
+    -fx-background-color: #ABD7C8;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-font-size: 14px;
+}
+
+.button {
+    -fx-background-color: #BAD59C;
+    -fx-font-size: 14px;
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: #ABD7C8;
+    -fx-text-fill: #2B4D3A;
+}
+
+#errorLabel {
+    -fx-font-size: 14px !important;
+    -fx-padding: 5px !important;
+    -fx-background-color: #ffebee !important;
+    -fx-border-color: #ffcdd2 !important;
+    -fx-border-width: 1px !important;
+    -fx-border-radius: 3px !important;
+}

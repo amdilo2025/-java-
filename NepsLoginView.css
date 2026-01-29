@@ -1,0 +1,72 @@
+/* NepsLoginView.css */
+
+/* 通用样式 */
+.root, .anchor-pane, .AnchorPane {
+    -fx-background-image: url("../../../../image/welcome.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+/* Label样式 */
+.label {
+    -fx-background-color: #ABD7C8;
+    -fx-padding: 2 8 2 8;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+}
+
+.label[styleClass~="label-title"] {
+    -fx-background-color: transparent;
+    -fx-font-weight: bold;
+}
+
+/* TextField样式 */
+.text-field, .password-field {
+    -fx-background-color: #ABD7C8;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-font-size: 14px;
+}
+
+/* Button样式 */
+.button {
+    -fx-background-color: #BAD59C;
+    -fx-font-size: 14px;
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: #ABD7C8;
+    -fx-text-fill: #2B4D3A;
+}
+
+/* 登录页面特定样式 */
+#login-pane {
+    -fx-background-image: url('../../../../image/welcome.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+/* 标题样式 */
+#title-label {
+    -fx-font-weight: bold;
+}
+
+/* 子标题样式 */
+#subtitle-label {
+    -fx-font-weight: bold;
+}
+
+#errorLabel {
+    -fx-font-size: 14px !important;
+    -fx-padding: 5px !important;
+    -fx-background-color: #ffebee !important;
+    -fx-border-color: #ffcdd2 !important;
+    -fx-border-width: 1px !important;
+    -fx-border-radius: 3px !important;
+}

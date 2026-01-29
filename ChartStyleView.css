@@ -1,0 +1,53 @@
+.root, .chart {
+    -fx-background-image: url("../../../../image/chart.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center; /* 整体背景 */
+}
+
+.chart-plot-background {
+    -fx-background-color: #CDEDDE;
+    -fx-background-color: rgba(255,255,255,0.3);/* 绘图区背景 */
+}
+
+.chart-title {
+    -fx-font-size: 30px;
+    -fx-text-fill: #6F9986;
+}
+
+.axis-label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #0C8918;
+}
+
+.axis-tick-mark {
+    -fx-stroke: #426666;
+}
+
+.default-color0.chart-series-line {
+    -fx-stroke: #4F8C49; /* 第一条折线颜色 */
+    -fx-stroke-width: 3px;
+}
+.default-color1.chart-series-line {
+    -fx-stroke: #4F8C49; /* 第二条折线颜色 */
+    -fx-stroke-width: 3px;
+}
+default-color2.chart-series-line {
+    -fx-stroke: #4F8C49; /* 第二条折线颜色 */
+    -fx-stroke-width: 3px;
+}
+default-color3.chart-series-line {
+    -fx-stroke: #4F8C49; /* 第二条折线颜色 */
+    -fx-stroke-width: 3px;
+}
+.chart-line-symbol {
+    -fx-background-color: #73AE52, #CDEDDE;
+}
+
+/* 依次类推 default-color2 ... */
+
+.chart-legend {
+    -fx-background-color: transparent;
+    -fx-font-size: 14px;
+}
+
